@@ -14,6 +14,6 @@ cleanPeaks.cpp:       This file converted the raw Excel data into an integer rep
                 
 cleanPeaksInput.txt:  This file contains the raw excel data inputted into "cleanPeaks.cpp".
 
-output.txt:           This file contains was the output file for both "cleanPeaks.cpp" and "syso.cpp". It 
+output.txt:           This file was the output file for both "cleanPeaks.cpp" and "syso.cpp". It 
                       currently holds the output for "cleanPeaks.cpp" as the "syso.cpp" output was overwritten.
             
