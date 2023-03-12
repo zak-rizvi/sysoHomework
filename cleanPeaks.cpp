@@ -1,5 +1,5 @@
 /*
- *  syso.cpp
+ *  cleanPeaks.cpp
  *  Zak Rizvi
  *  March 10, 2023
  *
@@ -24,7 +24,8 @@ void openOrDie(streamtype &stream, std::string filename);
 //purpose: Executes the program
 //arguments: Argument counter and an array of their names
 //returns: An integer zero if program is succesfully finished
-//effects: Outputs the formatted data to the output file
+//effects: Outputs the formatted data to the output file, outputs
+//total CPECS generated (accounting for Summer multiplier to terminal)
 int main(int argc, char *argv[])
 {
     //Checks for correct amount of file provided
